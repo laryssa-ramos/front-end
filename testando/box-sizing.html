@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h2{
+            text-transform: capitalize;
+            text-decoration:underline;
+        }
+        .box1{
+            height: 300px;
+            width: 400px;
+            border:1px solid red;
+            padding: 50px;
+            margin: 5px;
+            box-sizing: border-box;
+            outline-color: green;
+            outline-style: solid;
+            outline-width: 10px;
+        }
+
+        .box2{
+            height: 300px;
+            width: 400px;
+            border:1px solid blue;
+            background-color: red;
+            padding: 50px;
+            box-sizing: border-box;
+            transition: width 2s;
+        }
+
+        .box2:hover{
+            width: 800px;
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="boxes">
+        <h2>primeira caixa</h2>
+        <div class="box1"></div>
+        <h2>segunda caixa</h2>
+        <div class="box2"></div>
+    </div>
+</body>
+</html>
