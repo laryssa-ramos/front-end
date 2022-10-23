@@ -1,0 +1,31 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right,#f1d8c9, #f2c3a7);
+}
+
+main{
+background-color: white;   
+border-radius: 10px;
+box-shadow: 5px 5px 15px rgba(136, 109, 93, 0.616);
+width: 600px; 
+padding: 10px;
+margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+.eu{
+    display: flex;
+}
+.teste{
+    flex-basis: 30%;
+}
+.teste2{
+    flex-basis: 70%;
+    text-align: justify;
+}
